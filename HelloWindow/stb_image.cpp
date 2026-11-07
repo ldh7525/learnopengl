@@ -16,5 +16,4 @@
 // ★ [주의] #define STB_IMAGE_IMPLEMENTATION 은 프로젝트 전체에서 딱 한 파일에만.
 // ★   두 파일에 넣으면 같은 함수가 두 번 정의됐다는 링크 오류(multiple definition)가 난다.
 // ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
-#define STB_IMAGE_IMPLEMENTATION   // ★ 이 파일에서만 stb_image의 함수 몸통까지 만들라는 신호
 #include "stb_image.h"             // ★ 이미지 로딩 라이브러리 헤더 포함 (위 신호 때문에 구현까지 들어옴)
